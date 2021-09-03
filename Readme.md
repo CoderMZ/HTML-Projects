@@ -1,4 +1,4 @@
-# This a test area. Main Branch
+# This a test area.
 In this repository I will incorporate much if not all of my html, css and js knowledge.
 I will upload different versions of this repository to show my progress in these markup languages.
 I'm writing this text file while I am in my second year of my programming school.
