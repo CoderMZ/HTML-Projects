@@ -4,7 +4,7 @@ I will upload different versions of this repository to show my progress in these
 I'm writing this text file while I am in my second year of my programming school.
 We have just started writing html code.
 ## Code examples V (0.1)
-So the first html bit which will be the first html to open is this.
+So the first HTML file which will be the first HTML to open is below.
 We can call this the main Website.
 It's just a quick little thing I did in class when we made our first website.
 So what you can do on here is so limited, that you can literally just click the picture
