@@ -21,26 +21,57 @@
              color: white;
              border-radius: 20px;
              cursor: pointer;
-             
+        }
+        div.Text_Wrapper{
 
+            width: fit-content;
+            height: fit-content;
+            display: inline-block;
+            font-size: x-large;
+            font-family: Arial, Helvetica, sans-serif;
+            
+            border: 2.5px solid violet;
+            margin: 10px;
+            padding: 5px;
+            text-align: center;
+            width: 100%;
+            justify-content: center;
+        }
+        .wrapper{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
         }
         </style>
         <title>Main Page</title>
     </head>
     <body>
-        <h1>Sie befinden sich auf der Hauptwebseite.</h1>
-        <h2>Falls sie auf eine weitere Seite gehen wollen dann drücken sie einen der untenstehenden Links.</h2>
-        <a href="Geschaeftsmodell.html">
-            <button class="buttonsgalore">Das Geschäftsmodell</button>
-        </a>
-        <a href="Grund_fuer_einkauf.html">
-            <button class="buttonsgalore">Wieso bei uns?</button>
-        </a>
-        <a href="">
-            <button class="buttonsgalore">Kontakt</button>
-        </a>
-        <a href="">
-            <button class="buttonsgalore">Rechtliches</button>
-        </a>
+        <div class="Text_Wrapper">
+            <div>Sie befinden sich auf der Hauptwebseite. </div>
+            <div>Falls sie auf eine weitere Seite gehen wollen dann drücken sie einen der untenstehenden Links.</div>
+        </div>
+        <div class="wrapper">
+            <div class="btn1">
+                <a href="Geschaeftsmodell.html">
+                    <button class="buttonsgalore">Das Geschäftsmodell</button>
+                </a>
+            </div>
+            <div class="btn2">
+                <a href="Grund_fuer_einkauf.html">
+                    <button class="buttonsgalore">Wieso bei uns?</button>
+                </a>
+            </div>
+            <div class="btn3">
+                <a href="">
+                    <button class="buttonsgalore">Kontakt</button>
+                </a>
+            </div>
+            <div class="btn4">
+                <a href="">
+                    <button class="buttonsgalore">Rechtliches</button>
+                </a>
+            </div>
+        </div>
     </body>
 </html>
