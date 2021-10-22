@@ -23,16 +23,15 @@
              cursor: pointer;
         }
         div.Text_Wrapper{
-
-            width: fit-content;
-            height: fit-content;
-            display: block;
+            display: flex;
+            justify-content: center;
+            align-content: center;
             font-size: x-large;
             font-family: Arial, Helvetica, sans-serif;
-            border: 2.5px solid violet;
             margin: 10px;
             padding: 5px;
             text-align: center;
+
         }
         .wrapper{
             display: flex;
@@ -40,13 +39,19 @@
             flex-wrap: wrap;
             justify-content: center;
         }
+        .Tekekst
+        {
+            border: 2.5px solid violet;
+        }
         </style>
         <title>Main Page</title>
     </head>
     <body>
         <div class="Text_Wrapper">
-            <div>Sie befinden sich auf der Hauptwebseite. </div>
-            <div>Falls sie auf eine weitere Seite gehen wollen dann drücken sie einen der untenstehenden Links.</div>
+            <div class="Tekekst">
+            Sie befinden sich auf der Hauptwebseite. <br/>
+            Falls sie auf eine weitere Seite gehen wollen dann drücken sie einen der untenstehenden Links. 
+            </div>
         </div>
         <div class="wrapper">
             <div class="btn1">

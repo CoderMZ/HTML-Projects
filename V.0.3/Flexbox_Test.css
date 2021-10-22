@@ -1,0 +1,62 @@
+#html,body
+{
+    margin:0px;
+    padding:0px;
+}
+img.Banner
+{
+    display:block;
+    width: 1900px;
+    height: 200px;
+    border: 5px 5px 5px 5px;
+    border: 10px solid black;
+}
+div.Navigation-Container
+{
+    display:flex;
+    background-color: rgb(143, 47, 47);
+    padding: 0 20px;
+}
+a.Navigation-Item
+{
+    color: white;
+    padding: 10px 20px;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: 'Segoe UI';
+}
+.active
+{
+    background-color: yellowgreen;
+}
+h1.Heading
+{
+    font-family: 'Segoe UI';
+    padding: 50px 50px 0px 50px;
+    color: rgb(143, 47, 47);
+}
+div.Item-Outer-Wrapper
+{
+    margin: 100px 20px 20px 20px;
+}
+div.Flex-Container
+{
+    display:flex;
+    font-family: 'Arial'
+}
+img.Faces
+{
+    height: 350px;
+    width: 300px;
+}
+div.Text-Box
+{
+    background-color: yellowgreen;
+    color: white;
+    padding: 20px 20px;
+}
+div.Title-Name
+{
+    font-size: 30px;
+}
+
