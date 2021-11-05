@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Anmeldeformular | Offline</title>
+        <link rel="stylesheet" href="StylesheetForm.css">
+    </head>
+    <body>
+        <form action="https://formlog.offline.ch/log" method="post">
+            <label for="name">Vorname</label>
+            <br/>
+            <input type="text" name="name" id="name"/>
+            <br/>
+            <label for="surname">Nachname</label>
+            <br/>
+            <input type="text" name="surname" id="surname"/>
+            <br/>
+            <label for="email">Email</label>
+            <br/>
+            <input type="email" name="email" id="email"/>
+            <br/>
+            <label for="street">Strasse</label>
+            <br/>
+            <input type="text" name="street" id="street"/>
+            <br/>
+            <label for="plzort">PLZ + Ort</label>
+            <br/>
+            <input type="text" name="plzort" id="plzort"/>
+            <br/>
+            <label for="telnr">Telefonnummer</label>
+            <br/>
+            <input type="tel" name="telnr" id="telnr">
+            <br/>
+            <br/>
+            <select name="subs">
+                <option value="nosub">Kein Abo</option>
+                <option value="generals">GA</option>
+                <option value="reducedtax">Halbtax</option>
+                <option value="luc-zh">Steckenabo Luzern-Zürich</option>
+            </select>
+            <br/>
+            <br/>
+            <input type="radio" value="menu1" name="menu" id="r1" />
+            <label for="r1">Menü 1</label>
+            <br/>
+            <input type="radio" value="menu2" name="menu" id="r2" />
+            <label for="r2">Menü 2</label>
+            <br/>
+            <br/>
+            <input type="radio" value="withs" name="osn" id="2_r1">
+            <label for="2_r1">Mit Übernachtung</label>
+            <br/>
+            <input type="radio" value="withos" name="osn" id="2_r2">
+            <label for="2_r2">Ohne Übernachtung</label>
+            <br/>
+            <br/>           
+            <input type="radio" value="single" name="roomsp" id="3_r1">
+            <label for="3_r1">Einzelzimmer</label>
+            <br/>
+            <input type="radio" value="double" name="roomsp" id="3_r2">
+            <label for="3_r2">Doppelzimmer</label>
+            <br/>
+            <br/>
+            <label for="remark">Bemerkung</label>
+            <br/>
+            <textarea name="remark" id="remark" cols="30" rows="10"></textarea>
+            <br/>
+            <br/>
+            <input class="submit" type="submit" name="submit" id="submit" value="Formular Absenden">
+        </form>
+    </body>
+</html>
