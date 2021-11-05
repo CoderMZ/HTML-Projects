@@ -6,16 +6,18 @@
 img.Banner
 {
     display:block;
-    width: 1900px;
-    height: 200px;
-    border: 5px 5px 5px 5px;
-    border: 10px solid black;
+    width: 1920px;
+    height: 300px;
+    border: 1px solid brown;
+    object-fit: cover;
 }
 div.Navigation-Container
 {
     display:flex;
+    width: auto;
     background-color: rgb(143, 47, 47);
-    padding: 0 20px;
+    padding: 0px 20px;
+    border: 1px solid black;
 }
 a.Navigation-Item
 {
@@ -25,7 +27,7 @@ a.Navigation-Item
     text-decoration: none;
     font-family: 'Segoe UI';
 }
-.active
+.Active
 {
     background-color: yellowgreen;
 }
@@ -37,12 +39,19 @@ h1.Heading
 }
 div.Item-Outer-Wrapper
 {
-    margin: 100px 20px 20px 20px;
+    display: flex;
+    margin: 50px 20px 20px 20px;
+}
+div.Item-Inner-Wrapper
+{
+    display: flex;
+    flex-wrap: wrap;
 }
 div.Flex-Container
 {
-    display:flex;
-    font-family: 'Arial'
+    display: flex;
+    font-family: 'Arial';
+    margin: 20px 20px;
 }
 img.Faces
 {
@@ -51,12 +60,25 @@ img.Faces
 }
 div.Text-Box
 {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
     background-color: yellowgreen;
     color: white;
     padding: 20px 20px;
+    box-sizing: border-box;
+    height: 350px;
+    width: 280px;
 }
 div.Title-Name
 {
     font-size: 30px;
+
 }
+.Position
+{
+    font-size: 20px;
+}
+
+
 
